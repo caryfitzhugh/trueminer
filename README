@@ -1,10 +1,9 @@
-The idea being that we split out all our logic for alerts when data changes.
+This is to spit out data feeds and values from a rails / ruby / any application.
 
-(this request has more exceptions than it used to) -- trending calculations.
+simple key -> value stats.
 
-And we put it into trueminer.
+can be an event, or a number, or something like that.
 
-You can do anything you want , put any data feed in, as long as we can convert it to a number, we'll store it in a timeseries,
-and let you set alerts on it when it transitions from good / bad, etc.  Or jsut let you query for the current trending rate.
+Simple API. 
 
-Hopefully we'll get to the place where you could use this in heroku
+Feeds into something like truecanary.com
